@@ -1,7 +1,28 @@
 aid: jeeves
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jeeves.png
 name: Jeeves
-description: Jeeves is a company surfaced as a portfolio company of a16z, crv and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Jeeves is a global financial platform for cross-border businesses, combining
+  corporate cards (physical and virtual with spend controls and cashback),
+  automated expense management with approval flows and policy enforcement,
+  cross-border payments and transfers to 150+ countries in 40+ currencies,
+  instant and stablecoin-based settlement, non-dilutive corporate credit, and
+  AI-driven spend insights. Jeeves operates across Brazil, Colombia, Mexico,
+  Canada, the USA, the UK, and the European Union, serving globally operating
+  companies. Backed by a16z and CRV, the company is tracked in the API
+  Evangelist network; no public developer API or documentation surface was
+  found at the time of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/jeeves/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Corporate Cards
+- Expense Management
+- Cross-Border Payments
+- Spend Management
+- Global Payments
+- Stablecoins
+- Financial Services
+- Corporate Credit
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,33 @@ maintainers:
 common:
 - type: Website
   url: https://www.tryjeeves.com/
+- type: Blog
+  url: https://www.tryjeeves.com/blog
+- type: Support
+  url: https://jeeves.zendesk.com/hc/en-gb
+- type: SignUp
+  url: https://flows.jeev.es/onboarding
+- type: Login
+  url: https://prod.jeev.es/client/web/login
+- type: TermsOfService
+  url: https://legal.tryjeeves.com/
+- type: PrivacyPolicy
+  url: https://legal.tryjeeves.com/
+- type: Compliance
+  url: https://trust.tryjeeves.com/
+- type: Security
+  url: https://www.tryjeeves.com/security
+- type: TrustCenter
+  url: security/jeeves-trust-center.yml
+  name: Trust center (SOC 2 Type 2, PCI DSS v4.0.1)
+- type: VulnerabilityDisclosure
+  url: security/jeeves-vulnerability-disclosure.yml
+  name: Responsible disclosure
+- type: DomainSecurity
+  url: security/jeeves-domain-security.yml
+  name: Domain security posture (TLS/HSTS/DNSSEC/CAA/SPF/DMARC)
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.tryjeeves.com/
+url: https://trust.tryjeeves.com/
+certifications:
+- SOC 2 Type 2
+- PCI DSS v4.0.1
+programs:
+- data privacy
+- access controls
+- incident response
+- risk management
+- business continuity / disaster recovery
+- responsible disclosure
+subprocessors:
+- SentinelOne
+- Zscaler
+- Cloudflare
+- Drata
+- Barracuda Networks
+- Notion
+- AWS
+- RiskProfiler
+evidence:
+- source: https://trust.tryjeeves.com/
+  keywords:
+  - soc 2 type 2
+  - pci dss v4.0.1
+  - trust center
+  - responsible disclosure
