@@ -54,7 +54,7 @@ tags:
 - Spend Management
 - Global Payments
 - Stablecoins
-- Financial-Services
+- Financial Services
 - Corporate Credit
 tags_raw:
 - Company
@@ -67,6 +67,7 @@ tags_raw:
 - Stablecoins
 - Financial Services
 - Corporate Credit
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
