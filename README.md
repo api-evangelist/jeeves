@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Jeeves is a company surfaced as a portfolio company of a16z, crv and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Jeeves is a global financial platform for cross-border businesses, combining corporate cards (physical and virtual with spend controls and cashback), automated expense management with approval flows and policy enforcement, cross-border payments and transfers to 150+ countries in 40+ currencies, instant and stablecoin-based settlement, non-dilutive corporate credit, and AI-driven spend insights. Jeeves operates across Brazil, Colombia, Mexico, Canada, the USA, the UK, and the European Union, serving globally operating companies. Backed by a16z and CRV, the company is tracked in the API Evangelist network; no public developer API or documentation surface was found at the time of enrichment.
 
-Backed by: a16z, crv — https://www.tryjeeves.com/
+**Areas:** Company · Fintech · Corporate Cards · Expense Management · Cross-Border Payments · Spend Management · Global Payments · Stablecoins · Financial Services · Corporate Credit
+
+## Jeeves on APIs.io
+
+Everything profiled for Jeeves is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jeeves/](https://apis.io/providers/jeeves/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Jeeves Domain Security](https://apis.io/security/jeeves/jeeves-domain-security/)
+- [Jeeves Trust Center](https://apis.io/security/jeeves/jeeves-trust-center/)
+- [Jeeves Vulnerability Disclosure](https://apis.io/security/jeeves/jeeves-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.tryjeeves.com/)
+- [Sign up](https://flows.jeev.es/onboarding)
+- [Support](https://jeeves.zendesk.com/hc/en-gb)
+- [Blog](https://www.tryjeeves.com/blog)
+- [Security](https://www.tryjeeves.com/security)
+- [Compliance](https://trust.tryjeeves.com/)
+- [Terms of service](https://legal.tryjeeves.com/)
+- [Privacy policy](https://legal.tryjeeves.com/)
+
+## API Evangelist rating
+
+**Kin Score 16.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 43.4 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.3** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jeeves/](https://apis.io/providers/jeeves/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Jeeves: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jeeves/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
